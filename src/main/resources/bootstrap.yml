@@ -6,13 +6,9 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 192.168.153.129:8848
+        server-addr: 100.73.134.38:8848
         namespace: 90f7551f-d63f-48a3-872b-2b835f4b8b52
-        username: nacos
-        password: nacos
       config:
-        server-addr: 192.168.153.129:8848
+        server-addr: 100.73.134.38:8848
         namespace: 90f7551f-d63f-48a3-872b-2b835f4b8b52
         file-extension: yml
-        username: nacos
-        password: nacos
