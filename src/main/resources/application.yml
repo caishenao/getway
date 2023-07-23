@@ -1,7 +1,3 @@
-spring:
-  cloud:
-    gateway:
-      enabled: true
-      routes:
+
 
 
