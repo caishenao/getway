@@ -14,6 +14,7 @@
         <spring-boot.version>2.6.13</spring-boot.version>
         <spring-cloud.version>2021.0.5</spring-cloud.version>
         <alibaba.version>2021.0.1.0</alibaba.version>
+        <commons.version>2.6</commons.version>
     </properties>
     <dependencies>
         <dependency>
@@ -23,6 +24,15 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>${commons.version}</version>
         </dependency>
 
         <dependency>
